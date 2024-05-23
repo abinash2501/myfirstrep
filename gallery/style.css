@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(94, 0, 182, 0.707);
+    color: white;
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.titlebar{
+    text-align: center;
+    padding: 20px;
+} 
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+.container div{
+    padding: 10px;
+    color: white;
+    flex-basis: 20%;
+    margin: 5px;
+    
+}
