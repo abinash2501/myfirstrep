@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .one{
+            background-color: black;
+            margin: 10px;
+            height: 100px;
+        }
+    
+        .c2{
+            display: flex;
+            flex-wrap:wrap;
+            justify-content:space-around;
+            margin: 10px;
+        }
+        .two{
+            background-color: blue;
+            flex-basis: 100%;
+            height: 100px;
+            margin: 5px;
+        }
+        
+       
+        @media screen and (min-width:600px)  {
+            .two{
+                background-color: aqua;
+                flex-basis: 100%;
+            }
+            
+        }
+        @media screen and (min-width:1000px)  {
+            .two{
+                background-color: blueviolet;
+                flex-basis: 100%;
+            }
+            
+        }
+        .c3{
+            display: flex ;
+            flex-wrap:wrap;
+            justify-content:space-around;
+        }
+        .three{
+            background-color: rgb(250, 6, 6);
+            flex-basis: 100%;
+            height: 100px;
+    
+        }
+        @media screen and (min-width:600px) {
+            .three{
+                background-color: rgb(208, 181, 181);
+                flex-basis: 40%;
+                margin: 5px;
+            }
+        }
+        @media screen and (min-width:1000px)  {
+            .three{
+                background-color:rgb(164, 78, 78);
+                flex-basis:20%;
+                margin: 5px;
+
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="one"></div>
+<div class="c2">
+    <div class="two"></div>
+    <div class="two"></div>
+    <div class="two"></div>
+</div>
+   <div class="c3">
+    <div class="three"></div> 
+    <div class="three"></div> 
+    <div class="three"></div> 
+    <div class="three"></div> 
+
+   </div>
+   
+</body>
+</html>
