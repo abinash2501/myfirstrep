@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg{
+    background: linear-gradient(rgb(1 1 2 / 57%), rgba(80, 80, 90, 0.57)),url('cricketimg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: 100% 100%;
+    border:20px solid yellow;
+    color:rgb(252, 253, 253);
+    text-align: center;
+    height: 800px;
+}
+.container{
+    background-color: blue;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.head{
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:whitesmoke;
+    display: inline-block;
+    height: 100px;width: 600px;
+    padding-top: 30px;
+    margin: 200px;
+    position: relative;
+    right:30%;
+
+}
+
+h1,ul,li{
+    display: inline;
+   
+}
+#brand{
+    background-color:rgb(2, 88, 248);
+    color: aliceblue;
+    padding: 20px;
+
+}
+ul{
+    margin-left: 40%;
+}
+li{
+    margin: 10px;
+    font-size: larger;
+    cursor: pointer;
+    color: aliceblue;
+}
+li:hover{
+   color: black;
+}
+.button{
+    background-color: red;
+color: aliceblue;
+border-color: azure;
+border-style:solid;
+border-width: 5px;
+padding: 10px;
+margin: 10px;
+cursor: pointer;
+font-weight: bold;
+}
+.button:hover{
+    background-color: gray;
+    border-color: black;
+    color: black;
+}
+.container2{
+    background-color: rgb(88, 183, 251);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.sertitle{
+    background-color: rgb(88, 183, 251);
+    text-align: center;
+    font-size:50px;
+}
+
+.container2 div{
+    background-color:white;
+    border-style: solid;
+    flex-basis: 30%;
+    margin: 20px;
+    padding: 10px;
+   
+}
+.about{
+    background-color:rgb(219, 217, 217);
+    opacity: 0.8;
+    text-align: center;
+    color: black;
+    padding: 50px;
+    font-weight: bolder;
+}
+.button2{
+    background-color: red;
+    color:white;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+font-weight: bold;
+border-color: black;
+border-radius: 5px;
+border-width: 5px;
+}
+.button2:hover{
+    background-color: gray;
+    color: black;
+
+}
+.gallerypage{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}
+.gallery{
+    float: left;
+    margin-top: 50px;
+   
+}
+.gal1{
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+    flex-basis: 20%;
+    
+}
+.galdesc{
+    text-align: center;
+    padding: 5px;
+}
+.testimonials{
+    background:linear-gradient(rgb(1 1 2 / 57%), rgba(159, 160, 90, 5557)),url('csk.jpeg');
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    width: 1000px;
+    text-align: center;
+   margin-left: 240px;
+    padding: top 100px; 
+
+}
+.testimonials div{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 200px;
+}
+.contact{
+    background-color: rgb(233, 232, 232);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.con1{
+    flex-basis: 33%;
+}
+.footer{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content:space-around;
+    padding: 50px;
+}
+.footin{
+    flex-basis: 40%;
+    
+}
